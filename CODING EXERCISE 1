@@ -1,0 +1,59 @@
+package numericData;
+
+/* 
+ * Add five integers and display their sum.
+ */
+public class Exercise1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int number1 = 11;
+		int number2 = 22;
+		int number3 = 33;
+		int number4 = 44;
+		int number5 = 55;
+		double number6 = 66;
+		double number7 = 77;
+		float number8 = 88;
+		float number9 =99;
+		
+		int sum;
+		int average;
+		double div;
+		float div2;
+		double mul;
+		float mix;
+		
+		sum = number1 + number2 + number3+ number4 + number5;
+		average = sum / 5;
+		div = number7 / number6;
+		div2 = number9 / number8;
+		mul = number1 * number2 * number3 * number4 * number5 * number6 * number7 * number8 * number9;
+		mix = (number1 * number2) / number3;
+		
+		System.out.print("The sum is ");
+		
+		System.out.println(sum);
+		
+		System.out.print("The average is ");
+		
+		System.out.println(average);
+		
+		System.out.printf("The answer is %.2f " , div);
+		
+		System.out.println();
+		
+		System.out.printf("The answer of division is %.2f ", div2);
+		
+		System.out.println();
+		
+		System.out.printf("The answer of multiplication is %.2f ", mul);
+		
+		System.out.println();
+		
+		System.out.printf("The answer is %.2f ", mix);
+				
+
+	}
+
+}
