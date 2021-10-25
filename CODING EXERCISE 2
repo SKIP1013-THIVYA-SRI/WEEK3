@@ -1,0 +1,35 @@
+package numericData;
+
+public class Exercise2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String name = "Thivya";
+		String insname = "Ungku Omar Polytechnic";
+		double gpa1 = 3.67;
+		double gpa2 = 3.77;
+		double gpa3 = 3.87;
+		double gpa4 = 3.57;
+		double gpa5 = 3.67;
+		double gpa6 = 3.77;
+		double gpa7 = 3.87;
+		double cgpa;
+		
+		cgpa = (gpa1 + gpa2 + gpa3 + gpa4 + gpa5 + gpa6 + gpa7) / 7;
+		
+		System.out.println(name);
+		System.out.println(insname);
+		System.out.println("Gpa sem 1 : " + gpa1);
+		System.out.println("Gpa sem 2 : " + gpa2);
+		System.out.println("Gpa sem 3 : " + gpa3);
+		System.out.println("Gpa sem 4 : " + gpa4);
+		System.out.println("Gpa sem 5 : " + gpa5);
+		System.out.println("Gpa sem 6 : " + gpa6);
+		System.out.println("Gpa sem 7 : " + gpa7);
+		System.out.printf("The Cgpa is %.2f " , cgpa);
+		
+		
+
+	}
+
+}
